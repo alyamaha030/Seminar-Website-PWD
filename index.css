@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 10pt;
+    border: 1px solid #cccccc;
+    margin: 0 auto; /* Centers the table */
+    width: 80%; /* Optional: Sets the width of the table */
+}
+
+td {
+    padding: 3px;
+    height: 25px;
+}
+
+th {
+    background-color: #9750de;
+    color: white;
+    height: 30px;
+}
+
+h3 {
+    font-weight: 600;
+    color: rgb(151, 80, 222); /* Fixed the typo from 'gb' to 'rgb' */
+}
+
+.btn-delete {
+    border: 1px solid #db5d58;
+    background: #db5d58 url(hapus.png) no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.btn-update {
+    border: 1px solid #00b3a8;
+    background: #00b3a8 url(edit.png) no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.btn-tambah {
+    border: 1px solid #000f0e;
+    background: #9750de;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.btn-lihat {
+    border: 1px solid #000f0e;
+    background: #9750de;
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+}

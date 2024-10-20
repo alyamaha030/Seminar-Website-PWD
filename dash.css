@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding: 200px;
+}
+td{
+    padding: 3px;
+    height: 25px;
+}
+
+
+.btn-klik {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cc28a6; /* Green background */
+    color: white; /* White text color */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-klik:hover{
+    background-color: #37c8db; /* Darker green on hover */
+  }
+
